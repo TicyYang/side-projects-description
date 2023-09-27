@@ -1,5 +1,5 @@
 # Side projects description
-各主題 side project 連結和說明如下：
+各主題 side project 連結如下：
 - 完整資料分析專案：
   - **[NYC Multimodal Ride-Hailing Data Retrieval Platform](https://github.com/TicyYang/NYC_Multimodal_Ride-Hailing_Data_Retrieval_Platform/tree/main)**
   - **[Kaggle - Spaceship Titanic](https://github.com/TicyYang/kaggle_spaceship_titanic_analysis)**
