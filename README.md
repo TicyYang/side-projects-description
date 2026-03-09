@@ -1,10 +1,16 @@
 
 # Side Projects Description
 Links to Side Projects by Topic:
-- Hadoop Big Data Platform Project: [NYC Multimodal Ride-Hailing Data Retrieval Platform](https://github.com/TicyYang/NYC_Multimodal_Ride-Hailing_Data_Retrieval_Platform/tree/main)
-- Data Analysis: [Kaggle - Spaceship Titanic](https://github.com/TicyYang/kaggle_spaceship_titanic_analysis)
-- ETL: [ETL Bank Marketing Dataset](https://github.com/TicyYang/ETL_with_PySpark)
-- Automate Web Crawling:
-  - Using Linux Crontab: [Automate Cryptocurrency Price Crawling (using Crontab)](https://github.com/TicyYang/cron_crypto_price)
-  - Using Apache Airflow: [Automate Cryptocurrency Price Crawling (using Apache Airflow)](https://github.com/TicyYang/crypto-price-crawler-airflow)
-- Weather API Integration: [OpenWeather API Integration](https://github.com/TicyYang/OpenWeather_API_connection)
+## Data Infrastructure:
+  - **[Docker Iceberg Lakehouse](https://github.com/TicyYang/docker-iceberg-lakehouse)**
+    - **Key Features:** Implementation of a modern Lakehouse architecture using Apache Iceberg as table formats.
+    - **Tech Stack:** `Apache Iceberg`, `MinIO`, `Spark`, `Docker`
+  - **[Airflow Production Cluster Setup](https://github.com/TicyYang/airflow-production-cluster-setup)**
+    - **Key Features:** A distributed Apache Airflow environment using CeleryExecutor and Redis Sentinel for high availability (HA), featuring optimized log management for each component.
+    - **Tech Stack:** `Apache Airflow`, `Redis Sentinel`, `MySQL`, `Ubuntu`
+  - **[Ansible YARN Capacity Scheduler](https://github.com/TicyYang/ansible-yarn-capacity-scheduler)**
+    - **Key Features:** Automated YARN Capacity Scheduler management using Ansible, featuring Node Labels and ACLs for workload isolation.
+    - **Tech Stack:** `Ansible`, `Hadoop`
+## ETL/ELT:
+  - **[Medallion ELT](https://github.com/TicyYang/nyc-taxi-medallion-etl):** A production-grade ELT pipeline following the Medallion Architecture (Bronze, Silver, Gold layers).
+  - **[ETL Bank Marketing Dataset](https://github.com/TicyYang/etl-bank-marketing-dataset):** Utilized PySpark to perform ETL on raw marketing data, transforming it into a multi-table relational schema
