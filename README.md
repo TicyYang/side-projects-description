@@ -1,6 +1,6 @@
 
-# Side Projects Description
-Links to Side Projects by Topic:
+# Side Projects
+
 ## Data Infrastructure:
   - **[Docker Iceberg Lakehouse](https://github.com/TicyYang/docker-iceberg-lakehouse)**
     - **Key Features:** Implementation of a modern Lakehouse architecture using Apache Iceberg as table formats.
