@@ -1,4 +1,3 @@
-
 # Side Projects
 
 ## Data Infrastructure:
